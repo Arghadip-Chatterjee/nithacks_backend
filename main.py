@@ -21,8 +21,7 @@ nlp = spacy.load("en_core_web_sm")
 # CORS configuration
 origins = [
     "http://localhost:3000",
-    "https://lakshya-ai.vercel.app/"  # Next.js Frontend
-    "https://lakshya-learn-ai.vercel.app/"
+    "https://nithacks.vercel.app/"  # Next.js Frontend
 ]
 
 app.add_middleware(
